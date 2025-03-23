@@ -1,0 +1,17 @@
+name: aequoria
+
+services:
+
+  app:
+    image: nginx:latest
+    ports:
+      - "8091:80"
+    networks:
+      - aequoria-network
+    volumes:
+      - ./../app:/usr/share/nginx/html
+   
+networks:
+  aequoria-network:
+    name: aequoria-network
+    driver: bridge

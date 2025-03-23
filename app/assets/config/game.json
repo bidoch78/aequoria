@@ -1,0 +1,43 @@
+{
+    "intro": "l'intro c'est ici",
+    "title": "Aequoria",
+    "day": [
+        { 
+            "id": 1,
+            "name": "Samedi",
+            "unlock-from": "",
+            "unlock-to": ""
+        },
+        { 
+            "id": 2,
+            "name": "Dimanche",
+            "unlock-from": "",
+            "unlock-to": ""
+        },
+        { 
+            "id": 3,
+            "name": "Lundi",
+            "unlock-from": "",
+            "unlock-to": ""
+        }                
+    ],
+    "game": [
+        {
+            "day": 1,
+            "img": "",
+            "poi": [
+                {
+                    "id": "",
+                    "text": "",
+                    "code": "",
+                    "img": "",
+                    "pos": { "x": 0, "y": 0 }
+                }
+            ]
+        }
+
+
+    ]
+
+
+}
