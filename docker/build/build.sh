@@ -1,6 +1,6 @@
 #!/bin/bash
 
-branch="1.0"
+branch="1.1"
 
 rm -rf ./build_app
 mkdir -p ./build_app
